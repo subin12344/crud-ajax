@@ -123,27 +123,6 @@ $(document).ready(function () {
             }
         })
     })
-    function genPDF(){
-        let cont=document.getElementById("table").innerHTML
-        // console.log(cont);
-        html2pdf().from(cont).save();
-    }
-    genPDF();
 
 
-    // $('#print').click(function(){
-    //     $.ajax({
-    //         url:"printdata.php",
-    //         type:"POST",
-    //         success: function(data){
-    //             $("#div").html(data);
-    //         }
-    //     })
-     
-    // });
-
-    
-
-
- 
 });

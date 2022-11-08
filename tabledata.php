@@ -24,6 +24,7 @@ while($row=$result->fetch_assoc()){
     <td>
     <button class='btn btn-outline-info' data-bs-toggle='modal' data-bs-target='#exampleModal' id='edit' data-id='$row[id]'>edit</button>
     <button class='btn btn-outline-danger 'id='delate' data-id='$row[id]'>delate</button>
+
     
     </td>
     
